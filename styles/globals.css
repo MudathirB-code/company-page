@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .links {
+    @apply hover:text-green-400 font-normal md:font-semibold;
+  }
+  .f-link {
+    @apply text-xl font-bold text-gray-600 py-4;
+  }
+  .f-f-link {
+    @apply text-gray-600 font-sans space-y-2;
+  }
+}
+
 html,
 body {
   padding: 0;
